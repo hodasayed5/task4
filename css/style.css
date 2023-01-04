@@ -1,0 +1,219 @@
+body{ 
+margin: 0;
+padding: 0;}
+.cont{
+width: 80%;
+height: 100vh;
+box-shadow: 4px 4px 15px 4px rgba(128, 128, 128, 0.781),-4px -4px 15px 4px rgba(128, 128, 128, 0.781);
+margin: auto;
+position: relative;}
+.div1,.div2,.div3,.div4,.div5,.div6,.div7{
+position: absolute;
+width: 100%;
+height: 90px;
+box-shadow: 0px 1px 0px 0px rgba(201, 201, 201, 0.808);}
+.div1{height: 70px;}
+.w{
+margin: 25px 0px 0px 45px;
+font-size: 25px;
+color:rgb(20, 182, 74) ;}
+.div1 span,.span2{
+font-size: 22px;
+margin: 0px 0px 0px 25px;}
+.span2{margin:-25px 0px 0px 750px;
+color:rgb(20, 182, 74) ;}
+.div2{margin-top: 70px;
+animation-duration: 1s;
+animation-name: fro;
+animation-delay: 20s;
+animation-fill-mode: forwards;}
+@keyframes fro {
+0%{margin-top: 70px;}
+100%{margin-top: 161px;}}
+.div3{
+margin-top: 161px;
+animation-duration: 1s;
+animation-name: fr;
+animation-delay: 20s;
+animation-fill-mode: forwards;}
+@keyframes fr{
+0%{margin-top: 161px;}
+100%{margin-top: 252px;}}
+.div5{margin-top:343px ;}
+.div6{margin-top: 434px;}
+.div7{margin-top: 525px;}
+.div8{
+width: 350px;
+height: 18px;
+position: absolute;
+margin-top: 616px;
+margin-left: 230px;}
+.m{color: gray;
+margin-top: 10px;
+display: inline-block;}
+.m1{color:rgb(23, 218, 88) ;}
+.div8 i{
+font-size: 15px;
+color: rgb(99, 99, 99);}
+.div4{
+margin-top:252px ;
+z-index: 5;
+animation-duration: 0.5s;
+animation-name: to;
+animation-delay: 20s;
+animation-fill-mode: forwards;}
+@keyframes to {
+0%{margin-top: 261px;}
+100%{margin-top: 70px;}}
+.div2:hover,.div3:hover,.div4:hover,.div5:hover,.div6:hover,.div7:hover{background-color: rgba(238, 238, 238, 0.562);}
+/* /////////////////////////////////img///////////////////////////////////////////// */
+.img1,.img2,.img3,.img4,.img5,.img6{
+width: 55px;
+height: 55px;
+border-radius: 50%;
+background-image: url(../image/88.jpg);
+background-size: cover;
+position: absolute;
+opacity: 0;
+animation-fill-mode: forwards;
+background-position: center;
+margin: 15px 0px 0px 30px;
+animation-name: s-img1;
+animation-duration: 1s;}
+@keyframes s-img1 {
+0%{margin-left: 500px; opacity: 0;}
+100%{ opacity: 1;}  }
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+border-radius:0px;
+z-index: 7;
+box-shadow: -100px -100px 70px 300px rgba(0, 0, 0, 0.3),100px 100px 90px 300px rgba(0, 0, 0, 0.3);
+transform: translate(-50%,-50%);
+position: absolute;
+top: 50%;
+left: 50%;
+width: 400px;
+height:500px;}
+.img2{animation-delay: 3s; background-image: url(../image/team-1.jpg);}
+.img3{animation-delay: 6s; background-image: url(../image/team-3.jpg);}
+.img4{animation-delay: 8s; background-image: url(../image/team-2.jpg);}
+.img5{animation-delay: 11s; background-image: url(../image/testimonials-4.jpg);}
+.img6{animation-delay: 14s; background-image: url(../image/team-2\ \(1\).jpg);}
+.img1:hover{margin-top: 100px;}
+.img3:hover{margin-top: 190px;}
+.img4:hover{margin-top: -80px;}
+.img5:hover{margin-top: -180px;}
+.img6:hover{margin-top: -260px;}
+/* ////////////////////////////////inf/////////////////////////////////////////////////////// */
+.inf,.inf1,.inf2,.inf3,.inf4,.inf5{
+position:relative;
+width: 200px;
+height: 70px;
+margin-left: 100px;
+padding: 5px;
+opacity: 0;
+animation-fill-mode: forwards;
+animation-delay: 1s;
+animation-name: s-inf1;
+animation-duration: 1s;}
+@keyframes s-inf1 {
+0%{margin-left: 400px; opacity: 0;}
+100%{ opacity: 1;}  }
+.inf h4,.inf1 h4,.inf2 h4,.inf3 h4,.inf4 h4,.inf5 h4{font-size: 17px; margin-top: 15px;}
+.inf1{animation-delay: 4s;}
+.inf2{animation-delay: 7s;}
+.inf3{animation-delay: 9s;}
+.inf4{animation-delay: 12s;}
+.inf5{animation-delay: 15s;}
+.inf6 p,.inf1 p,.inf3 p,.a1{
+margin: 40px 0px 0px 25px;
+color: rgb(128, 128, 128);}
+.inf p{margin: 40px 0px 0px 0px;}
+.inf1 p{margin: 40px 0px 0px 40px;}
+.a3,.inf4 p{margin: 40px 0px 0px 20px; color: rgb(128, 128, 128);}
+/* ///////////////////////inf(message)//////////////////////////////////////// */
+.a{
+    font-size: 18px;
+margin-top: 40px;
+color: rgb(23, 218, 88) ; 
+animation-name: aa;
+animation-duration: 3s;
+animation-delay: 17s;
+opacity: 0;}
+@keyframes aa {
+0%{opacity: 1;}
+100%{opacity: 1;}}
+.a1,.inf2 i{
+animation-name: aaaa;
+animation-duration: 10s;
+animation-delay: 6s;
+opacity: 0;}
+@keyframes aaaa {
+0%{opacity: 1;}
+100%{opacity: 1;}}
+.a2{
+margin: 40px 0px 0px 0px;
+animation-name: aaa;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-delay: 20s;
+opacity: 0;}
+@keyframes aaa {
+0%{opacity: 1;}
+100%{opacity: 1;}}
+/* ///////////////////////////inf(icon)/////////////////////////// */
+.p,.inf2 i,.f{
+margin: 42px 0px 0px 0px;
+color:rgba(55, 171, 224, 0.959) ;
+text-shadow: 6.5px 0px 0px rgba(55, 171, 224, 0.959);
+font-size: 13px;}
+.inf5 i{color:rgb(151, 151, 151); margin-top: 42px; font-size: 13px;}
+.p1{position: absolute;
+margin: 42px 0px 0px 22px;
+color: rgb(151, 151, 151);}
+.r{margin: 40px 0px 0px 0px; color: rgb(151, 151, 151);}
+.o{font-size: 15px;
+color: rgb(204, 36, 36);
+margin-top: 5px;
+text-shadow: 2px 2px 2px rgb(151, 151, 151);}
+.inf h4,.inf p,.inf i,.inf1 h4,.inf1 p,.inf1 i,.inf2 h4,.inf2 p,.inf2 i,.inf3 h4,.inf3 p,.inf3 i,.inf4 h4,.inf4 p,.inf4 i,.inf5 h4,.inf5 p,.inf5 i{position: absolute;}
+/* ////////////////////////////time////////////////////////////////////////////////////// */
+.time1,.time2,.time3,.time4,.time5,.time6{
+width: 100px;
+height: 100px;
+position: absolute;
+margin: -80px 0px 0px 700px;
+color: rgb(20, 182, 74);
+text-align: center;
+opacity: 0;
+animation-fill-mode: forwards;
+animation-name: s-time1;
+animation-duration: 1s;
+animation-delay: 2s;}
+@keyframes s-time1 {
+0%{margin-left: 10px;}
+100%{opacity: 1;}}
+.time2{animation-delay:5s; color:rgb(151, 151, 151);}
+.time4{animation-delay:10s; color:rgb(151, 151, 151) ;}
+.time5{animation-delay:13s;}
+.time6{animation-delay:16s; color:rgb(151, 151, 151) ;}
+.time3{
+animation-delay:20s;
+animation-name: g;
+animation-duration: 1s;
+opacity:0;
+}
+@keyframes g {
+100%{opacity: 1;}  
+}
+.d1{
+width: 25px ;
+height: 25px;
+border-radius: 50%;
+border: 0px;
+background-color: rgb(23, 218, 88);
+margin: -10px 0px 0px 50px;
+color: white;}
+.d1 p{padding-top: 3px;}
+.f{
+color: rgb(172, 172, 172);
+text-shadow: 6.5px 0px 0px rgb(172, 172, 172);}
